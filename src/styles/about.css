@@ -1,0 +1,15 @@
+@media only screen and (max-width: 992px) {
+  
+  .about__page-content h2 {
+    font-size: 1.5rem;
+  }
+  .about__img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about__page-img {
+    display: none;
+  }
+}

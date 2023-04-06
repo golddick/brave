@@ -1,0 +1,48 @@
+.service_container{
+  background-color: darkred;
+  display: grid;
+}
+.mb-3{
+
+  
+}
+.service__item span i {
+  font-size: 2.5rem;
+  color: #f9a826;
+}
+
+.service__item h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.3s;
+  color: #f9a826;
+}
+
+.service__item h6:hover {
+  color: #fff;
+}
+
+.reserve__btn {
+  background: #fff !important;
+  color: #000d6b !important;
+  border: none;
+  outline: none;
+}
+
+.reserve__btn a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000d6b;
+}
+
+.reserve__btn:hover {
+  background: #000d6b;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .service__item h6 {
+    font-size: 1.1rem;
+  }
+}
